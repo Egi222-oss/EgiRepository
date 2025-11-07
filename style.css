@@ -1,149 +1,97 @@
-.c_frame1-frame {
+.frame {
+  background-color: var(--colors-grays-black);
   width: 100%;
-  overflow: hidden;
-  max-width: 1152px;
-  box-shadow: 0 4px 4px 0 rgba(0,0,0,.25);
-  box-sizing: border-box;
-  align-items: flex-start;
-  flex-direction: column;
-  justify-content: flex-start;
-  background-color: #000;
+  min-width: 1152px;
+  min-height: 639px;
+  position: relative;
 }
 
-.c_frame1-rectangle1 {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  display: block;
-  max-width: 1152px;
-  border-top: 1px solid #000;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  border-bottom: 1px solid #000;
+.frame .rectangle {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1152px;
+  height: 135px;
+  background-color: var(--colors-grays-black);
+  border: 1px solid;
+  border-color: #000000;
 }
 
-.c_frame1-text10,
-.c_frame1-text11 {
-  margin-top: 0;
-  text-align: right;
-  margin-bottom: 0;
-}
-
-.c_frame1-text10 {
-  width: 100%;
-  max-width: 149px;
-  min-height: 63px;
-}
-
-.c_frame1-text11 {
-  color: #fff;
-  font-size: 32px;
-  font-style: normal;
-  font-family: "Rubik Bubbles",sans-serif;
+.frame .text-wrapper {
+  position: absolute;
+  top: 53px;
+  left: 225px;
+  width: 149px;
+  font-family: "Rubik Bubbles-Regular", Helvetica;
   font-weight: 400;
-  line-height: normal;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-.c_frame1-text12 {
-  width: 100%;
-  max-width: auto;
-  min-height: auto;
-}
-
-.c_frame1-text12,
-.c_frame1-text13,
-.c_frame1-text14 {
-  margin-top: 0;
-  text-align: right;
-  margin-bottom: 0;
-}
-
-.c_frame1-text13 {
-  color: #fff;
+  color: var(--colors-grays-white);
   font-size: 32px;
-  font-style: normal;
-  font-family: "Rubik Bubbles",sans-serif;
-  font-weight: 400;
-  line-height: normal;
+  text-align: right;
   letter-spacing: 0;
-  text-transform: none;
+  line-height: normal;
 }
 
-.c_frame1-text14 {
-  width: 100%;
-  max-width: auto;
-  min-height: auto;
+.frame .div {
+  position: absolute;
+  top: 61px;
+  left: 906px;
+  font-family: "Rubik Bubbles-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--colors-grays-white);
+  font-size: 32px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
 }
 
-.c_frame1-text15 {
-  color: #fff;
+.frame .text-wrapper-2 {
+  position: absolute;
+  top: 306px;
+  left: 439px;
+  font-family: "Sigmar One-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--colors-grays-white);
   font-size: 36px;
-  font-style: normal;
-  font-family: "Sigmar One",sans-serif;
-  font-weight: 400;
-  line-height: 40px;
-  letter-spacing: 0;
-  text-transform: none;
-}
-
-.c_frame1-text15,
-.c_frame1-text16,
-.c_frame1-text17 {
-  margin-top: 0;
   text-align: right;
-  margin-bottom: 0;
-}
-
-.c_frame1-text16 {
-  width: 100%;
-  max-width: auto;
-  min-height: auto;
-}
-
-.c_frame1-text17 {
-  color: #fff;
-  font-size: 32px;
-  font-style: normal;
-  font-family: "Rubik Bubbles",sans-serif;
-  font-weight: 400;
-  line-height: normal;
   letter-spacing: 0;
-  text-transform: none;
-}
-
-.c_frame1-rectangle2 {
-  width: 100%;
-  height: auto;
-  margin: 0;
-  display: block;
-  max-width: 264px;
-}
-
-.c_frame1-text18 {
-  width: 100%;
-  max-width: 508px;
-  margin-top: 0;
-  min-height: 52px;
-  text-align: left;
-  margin-bottom: 0;
-}
-
-.c_frame1-text19 {
-  color: #8e8e93;
-  font-size: 36px;
-  font-style: normal;
-  font-family: "Sigmar One",sans-serif;
-  font-weight: 400;
   line-height: 40px;
-  letter-spacing: 0;
-  text-transform: none;
+  white-space: nowrap;
 }
 
-.c_frame1-text19,
-.c_frame1-text20 {
-  margin-top: 0;
-  text-align: left;
-  margin-bottom: 0;
+.frame .text-wrapper-3 {
+  position: absolute;
+  top: 53px;
+  left: 579px;
+  font-family: "Rubik Bubbles-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--colors-grays-white);
+  font-size: 32px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.frame .cropped-circle-image {
+  position: absolute;
+  top: 266px;
+  left: 93px;
+  width: 264px;
+  height: 264px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .p {
+  position: absolute;
+  top: 377px;
+  left: 451px;
+  width: 508px;
+  font-family: "Sigmar One-Regular", Helvetica;
+  font-weight: 400;
+  color: var(--colors-grays-gray);
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 40px;
 }
