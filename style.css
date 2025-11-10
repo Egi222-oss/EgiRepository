@@ -1,0 +1,80 @@
+header {
+    background-color: #000000; 
+    padding: 15px 0; 
+    color: white; 
+}
+nav ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline; 
+    margin: 0 20px;
+}
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-family: Arial, sans-serif;
+    font-weight: 500; 
+    font-size: 1rem; 
+    padding: 8px 15px;
+    border-radius: 5px; 
+    transition: color 0.3s ease; 
+}
+nav ul li a:hover {
+    background-color: rgb(171, 1, 1);
+    color: #000000; 
+
+}
+@media (max-width: 600px) {
+    ul {
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+    }
+}
+.frame {
+  background-color: #000000;
+  width: 100%;
+  min-width: 1152px;
+  min-height: 639px;
+  position: relative;
+}
+.frame .text-wrapper {
+  position: absolute;
+  top: 306px;
+  left: 439px;
+  font-family: "Sigmar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  text-align: right;
+  letter-spacing: 0;
+  line-height: 40px;
+  white-space: nowrap;
+}
+.frame .cropped-circle-image {
+  position: absolute;
+  top: 266px;
+  left: 93px;
+  width: 264px;
+  height: 264px;
+  aspect-ratio: 1;
+  object-fit: cover;
+}
+
+.frame .p {
+  position: absolute;
+  top: 377px;
+  left: 451px;
+  width: 508px;
+  font-family: "Sigmar One-Regular", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: 40px;
+}
